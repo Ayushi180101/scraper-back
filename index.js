@@ -248,7 +248,7 @@ const port = 1400;
 
 app.use(bodyParser.json());
 app.use(cors());
-
+//getcommand
 app.get('/', (req, res) => {
   res.send('Hello, this is the root!');
 });
